@@ -442,3 +442,264 @@ header {
 .section-team-social a:hover {
     background-color: #b28756;
 }
+
+.section-clients .sliders {
+    display: flex;
+    width: 300vw;
+    height: 100%;
+}
+
+.section-clients .slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+}
+
+.section-clients .slidearea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+}
+
+.section-clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-clients--name {
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.section-clients--role {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.section-clients--comment p {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 20px;
+    color: #555;
+}
+
+.section-clients--comment::before {
+    content: url('../images/quote.png');
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section-clients-area .sliders-pointers {
+    width: 100%;
+    height: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-clients-area .pointer {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-clients-area .pointer.active {
+    background-color: #b28756;
+}
+
+.partners {
+    height: 160px;
+    background-color: #fff;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+
+.partners-area {
+    height: 100%;
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-section-prices {
+    background-color: #ededed !important;
+}
+
+.section-prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+}
+
+.plan {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    border-radius: 2px;
+}
+
+.plan .plan-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.plan .plan-price {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.plan .plan-payment {
+    text-transform: uppercase;
+    color: #555;
+}
+
+.plan .plan-items {
+    margin-top: 20px;
+}
+
+.plan .plan-items ul li {
+    list-style: none;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 15px;
+    color: #373737;
+}
+
+.plan .plan-items ul li::after {
+    content: "\A –";
+    white-space: pre-wrap;
+}
+
+.plan .plan-items ul li:last-child::after {
+    content: unset;
+}
+
+.plan a {
+    margin-top: 20px;
+}
+
+.btn-dark {
+    height: 40px;
+    width: auto;
+    padding: 10px 30px;
+    background-color: #373737;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn-dark:hover,
+.btn-dark.active {
+    background-color: #b28756;
+}
+
+.section-features .sliders {
+    display: flex;
+    width: 200vw;
+    height: 100%;
+}
+
+.section-features .slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+}
+
+.section-features .slidearea {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    overflow-x: hidden;
+}
+
+.product-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.product-features {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+}
+
+.product-features td h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+}
+
+.product-features td {
+    min-width: 70px;
+    color: #555;
+    line-height: 23px;
+}
+
+.product-features td ul li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.product-features td ul li::before {
+    content: "– ";
+}
+
+.product-features table tr {
+    margin-bottom: 40px;
+}
+
+.section-features-area .sliders-pointers {
+    width: 100%;
+    height: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-features-area .pointer {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-features-area .pointer.active {
+    background-color: #b28756;
+}
+
+.section-features-area {
+    text-align: center;
+}
