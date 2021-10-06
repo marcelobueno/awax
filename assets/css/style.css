@@ -35,6 +35,10 @@ header {
     height: 80px;
 }
 
+.menu-opener {
+    display: none;
+}
+
 .menu {
     flex: 1;
     display: flex;
@@ -1006,4 +1010,323 @@ footer .section-body {
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+@media (min-width: 450px) and (max-width: 800px) {
+    .logo {
+        margin-left: 30px;
+    }
+
+    .menu-opener {
+        width: 45px;
+        margin-right: 30px;
+        display: block;
+    }
+
+    nav {
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+        display: none;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 27px;
+        margin-left: 50px;
+        border: 0;
+    }
+
+    .menu li.active a {
+        border: 0;
+        color: #b28756;
+    }
+
+    .section-aboutus {
+        flex-direction: column;
+    }
+
+    .section-aboutus--left {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-aboutus--right {
+        width: auto;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service {
+        min-width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .section-service:first-child {
+        border-left: 0;
+    }
+
+    .section-team {
+        max-width: 580px;
+    }
+
+    .section-clients .sliders .slide {
+        padding: 0 30px;
+    }
+
+    .partners-area {
+        padding: 0 30px;
+    }
+
+    .section-prices {
+        flex-wrap: wrap;
+    }
+
+    .plan {
+        margin: 10px 50px;
+    }
+
+    .section-facts {
+        flex-wrap: wrap;
+    }
+
+    .section-map {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section-map--area {
+        width: auto;
+    }
+
+    .section-map--info {
+        width: auto;
+    }
+
+    .section-map--info-item {
+        margin-bottom: 20px;
+    }
+
+    .section-map--info-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .section-footer--area {
+        flex-direction: column-reverse;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section-footer--collumn {
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .section-footer-copy {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo {
+        margin-left: 30px;
+    }
+
+    .menu-opener {
+        width: 45px;
+        margin-right: 30px;
+        display: block;
+    }
+
+    nav {
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+        display: none;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: 0;
+    }
+
+    .menu li.active a {
+        border: 0;
+        color: #b28756;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .banner h2 {
+        font-size: 17px;
+    }
+
+    .section-aboutus {
+        flex-direction: column;
+    }
+
+    .section-aboutus--left {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-aboutus--right {
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-aboutus--right img {
+        width: 100%;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service {
+        min-width: 60%;
+        margin-bottom: 30px;
+    }
+
+    .section-service:first-child {
+        border-left: 0;
+    }
+
+    .section-projects--filters {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-projects--photo {
+        width: 320px;
+    }
+
+    .section-projects--photoarea {
+        width: 300px;
+        height: 190px;
+    }
+
+    .section-team {
+        max-width: 280px;
+    }
+
+    .section-clients .sliders .slide {
+        padding: 0 30px;
+    }
+
+    .partners-area {
+        padding: 0 30px;
+    }
+
+    .section-prices {
+        flex-wrap: wrap;
+    }
+
+    .plan {
+        margin: 10px 50px;
+    }
+
+    .section-features .sliders .slide .slidearea {
+        flex-direction: column;
+    }
+
+    .product-image {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-share {
+        height: auto;
+    }
+
+    .share-socials {
+        flex-wrap: wrap;
+    }
+
+    .share-social:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .share-social {
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .section-facts {
+        flex-wrap: wrap;
+    }
+
+    .section-map {
+        padding: 0;
+        padding-bottom: 250px;
+    }
+
+    .section-map--area {
+        width: auto;
+    }
+
+    .section-map--info {
+        width: auto;
+    }
+
+    .section-map--info-item {
+        margin-bottom: 20px;
+    }
+
+    .section-map--info-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .section-fact {
+        margin-right: 0;
+    }
+
+    .section-footer--area {
+        flex-direction: column-reverse;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section-footer--collumn {
+        align-items: center;
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+
+    .section-footer-copy {
+        margin-top: 30px;
+    }
 }
